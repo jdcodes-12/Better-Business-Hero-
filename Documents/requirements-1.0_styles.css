@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Nato Serif JP', serif;
+}
+
+p {
+    font-family: 'Nato Sans JP', sans-serif;
+}
+
+
+/* Header Section */
+.header-section {
+    text-align: center;
+    background-color: gray;
+    margin: 0;
+    padding: 1rem;
+}
+
+
+/* Requirements */
+
+.functional-title {
+    text-align: center;
+}
+
+.financial-reporting-title {
+    text-align: center;
+}
+
+.admin-title {
+    text-align: center;
+}
+
+/* Changes Section */
+.non-functional-title {
+    text-align: center;
+}
+
+
+/* Changes Section */
+.changes-title {
+    text-align: center;
+}
+
+
+/* Footer Section */
+.footer-section {
+    background-color: gray;
+    text-align: center;
+    color:white;
+}
+
+

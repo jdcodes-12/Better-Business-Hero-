@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Charset -->
+  <meta charset="utf-8">
+
+  <!-- Title -->
+  <title>Better Business Hero - Requirements Document</title>
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="requirements-1.0_styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- Start Body -->
+<body class="body">
+
+<!-- Header Section -->
+<section class="header-section">
+    <h1>Better Business Hero</h1>
+    <h2>Requirements Document</h2>
+    <h4>Version 1.0</h4>
+</section>
+
+<br>
+<hr>
+<br>
+
+<section class="team-members-section">
+<ul>
+  <li>
+    <p><strong>Name:</strong> Kaitlyn Hardin</p>
+    <p><strong>Role:</strong> Software Developer, Non-functional Requirements Engineer, Database devleopment.</p>
+  </li>
+
+  <br>
+
+  <li>
+    <p><strong>Name:</strong> Johnathan Dickson</p>
+    <p><strong>Role:</strong> Software Developer, Functional Requirements Engineer, GUI/UX/UI design.</p>
+  </li>
+
+
+</ul>
+</section>
+
+<br>
+
+<hr>
+<br>
+<br>
+
+<!-- Requirements & Changes Section -->
+<section class="requirements-section">
+
+  <!-- Functional Requirements Div -->
+  <div class="functional-div">
+    <h2 class="functional-title"> Functional Requirements</h2>
+    <br>
+
+    <h3>Inventory Management Requirements</h3>
+    <ol>
+
+      <!-- *******  Inventory Sheet Functional *******  -->
+
+      <!-- Functional - #1 - Create_inventory -->
+      <li class="list-item">
+        <p><Strong>Name:</Strong> Create_InventorySheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Create a new live, unused inventory sheet.</p>
+      </li>
+
+      <br>
+
+      <!-- Functional - #2 - Read_inventory -->
+      <li class="list-item">
+        <p><Strong>Name:</Strong> Read_InventorySheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Choose and read a inventory sheet from the MS access database. </p>
+      </li>
+
+      <br>
+
+      <!-- Functional - #3 - Update_inventory -->
+      <li class="list-item">
+        <p><Strong>Name:</Strong> Update_InventorySheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Used with Read Inventory Sheet; Make an active inventory sheet, enabling adjustments. </p>
+      </li>
+
+      <br>
+      <!-- Functional - #4 - Delete_inventory -->
+      <li class="list-item">
+        <p><Strong>Name:</Strong> Delete_InventorySheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Delete the active live inventory sheet and remove from database. </p>
+      </li>
+
+      <br>
+      <!-- Functional - #5 - Import_inventory -->
+      <li class="list-item">
+        <p><Strong>Name:</Strong> Import_InventorySheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Import data from other databse software (future increment - if time). </p>
+      </li>
+
+      <br>
+      <!-- Functional - #6 - Export_inventory -->
+      <li class="list-item">
+        <p><Strong>Name:</Strong> Export_InventorySheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Export active inventory sheet into .CSV format for future use. </p>
+      </li>
+
+      <br>
+      <!-- Functional - #7 - View_inventory -->
+      <li class="list-item">
+        <p><Strong>Name:</Strong> View_InventorySheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Search from inventory sheet database and select a sheet to bring to active.</p>
+      </li>
+    </ol>
+
+    <br>
+
+     <!-- *******  Asset Collection Functional  *******  -->
+     <!-- Functional - #8 - Create_AssetCollection -->
+
+     <br>
+     <h3>Asset Collection Requirements</h3>
+
+     <ol>
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Create_AssetCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Create a new live, unused asset collection sheet.
+      </p>
+    </li>
+    <br>
+     <!-- Functional - #9 - Read_AssetCollection -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Read_AssetCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Choose and read an asset collection sheet from the MS access database. </p>
+    </li>
+
+    <br>
+
+     <!-- Functional - #10 - Update_AssetCollection -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Update_AssetCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Used with Read Asset Collection Sheet; Make an active asset collection sheet, enabling adjustments.</p>
+    </li>
+
+    <br>
+
+     <!-- Functional - #11 - Delete_AssetCollection -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Delete_AssetCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Delete the active asset collection sheet and remove from database. </p>
+    </li>
+
+    <br>
+
+     <!-- Functional - #12 - Import_AssetCollection -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Import_AssetCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Import data from other database software (future increment - if time). </p>
+    </li>
+    
+    <br>
+
+     <!-- Functional - #13 - Export_AssetCollection -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Export_AssetCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Export active asset collection sheet into .CSV format for future use. </p>
+    </li>
+
+    <br>
+     <!-- Functional - #14 - View_AssetCollection -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> View_AssetCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Search from asset collection database and select a sheet to bring to active.</p>
+    </li>
+  </ol>
+
+     <!-- *******  Liability Collection Functional *******  -->
+     
+     <!-- Functional - #15 - Create_LiabilitiesCollection -->
+     <br>
+     <h3>Liability Collection Requirements</h3>
+
+     <ol>
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Create_LiabilitiesCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Create a new live, unused liability collection sheet. </p>
+    </li>
+
+    <br>
+
+     <!-- Functional - #16 - Read_LiabilitiesCollection -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Read_LiabilitiesCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Choose and read a liability collection sheet from the MS access database. </p>
+    </li>
+
+    <br>
+
+     <!-- Functional - #17 - Update_LiabilitiesCollection -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Update_LiabilitiesCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Used with Read Liability Collection Sheet; Make an active liability collection sheet, enabling adjustments.</p>
+    </li>
+
+    <br>
+
+     <!-- Functional - #18 - Delete_LiabilitiesCollection -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Delete_LiabilitiesCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Delete the active liability collection sheet and remove from database. </p>
+    </li>
+
+    <br>
+
+     <!-- Functional - #19 - View_inventory -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Import_LiabilitiesCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Import data from other database software (future increment - if time). </p>
+    </li>
+
+    <br>
+
+     <!-- Functional - #20 - View_inventory -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> Export_LiabilitiesCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Export active liability collection sheet into .CSV format for future use.t</p>
+    </li>
+
+    <br>
+
+     <!-- Functional - #21 - View_inventory -->
+     <li class="list-item">
+      <p><Strong>Name:</Strong> View_LiabilitesCollection</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Search from liability collection database and select a sheet to bring to active.</p>
+    </li>
+
+    <br>
+
+  </ol>
+  </div>
+
+  <br>
+  <h3 class="financial-reporting-title">Financial Reporting</h3>
+  <h3>Balance Sheet Reporting</h3>
+  <ol>
+    <li class="list-item">
+      <p><Strong>Name:</Strong> Create_BalanceSheet</p>
+      <p><Strong>Type:</Strong> Functional </p>
+      <p><Strong>Summary:</Strong> Create a new live, unused balance sheet.</p>
+    </li>
+
+    <br>
+
+    <li class="list-item">
+        <p><Strong>Name:</Strong> Read_BalanceSheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Choose and read a balance sheet from the MS access database.</p>
+      </li>
+  
+      <br>
+
+
+      <li class="list-item">
+        <p><Strong>Name:</Strong> Update_BalanceSheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Used with Read Balance Sheet; Make an active balance sheet, enabling adjustments.</p>
+      </li>
+  
+      <br>
+
+
+      <li class="list-item">
+        <p><Strong>Name:</Strong> Delete_BalanceSheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Delete the active balance sheet and remove from database. </p>
+      </li>
+  
+      <br>
+
+
+      <li class="list-item">
+        <p><Strong>Name:</Strong> Import_BalanceSheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Import data from other database software (future increment - if time). </p>
+      </li>
+  
+      <br>
+
+      <li class="list-item">
+        <p><Strong>Name:</Strong> Export_BalanceSheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Export active balance sheet into .CSV format for future use. </p>
+      </li>
+  
+      <br>
+
+
+      <li class="list-item">
+        <p><Strong>Name:</Strong> View_BalanceSheet</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Search from balance sheet database and select a sheet to bring to active. </p>
+      </li>
+  
+      <br>
+  </ol>
+
+  <br>
+
+  <h3>Income Statement Reporting</h3>
+  <ol>
+    <li class="list-item">
+        <p><Strong>Name:</Strong> Create_IncomeStatement</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Create a new live, unused income statement.</p>
+      </li>
+  
+      <br>
+  
+      <li class="list-item">
+          <p><Strong>Name:</Strong> Read_IncomeStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Choose and read an income statement from the MS access database. </p>
+        </li>
+    
+        <br>
+  
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> Update_IncomeStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Used with Read Income Statement; Make an active income statement, enabling adjustments.</p>
+        </li>
+    
+        <br>
+  
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> Delete_IncomeStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Delete the active income statement and remove from database. </p>
+        </li>
+    
+        <br>
+  
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> Import_IncomeStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Import data from other database software (future increment - if time). </p>
+        </li>
+    
+        <br>
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> Export_IncomeStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Export active income statement into .CSV format for future use. </p>
+        </li>
+    
+        <br>
+  
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> View_IncomeStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Search from income statement database and select a sheet to bring to active.</p>
+        </li>
+    
+        <br>
+  </ol>
+
+  <h3>Cashflow Statement Reporting</h3>
+  <ol>
+    <li class="list-item">
+        <p><Strong>Name:</Strong> Create_CashflowStatement</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Create a new live, unused cashflow statement sheet.</p>
+      </li>
+  
+      <br>
+  
+      <li class="list-item">
+          <p><Strong>Name:</Strong> Read_CashflowStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Choose and read an cashflow statement from the MS access database.</p>
+        </li>
+    
+        <br>
+  
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> Update_CashflowStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Used with Read Cashflow Statement; Make an active cashflow statement, enabling adjustments.</p>
+        </li>
+    
+        <br>
+  
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> Delete_CashflowStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Delete the active cashflow statement and remove from database.</p>
+        </li>
+    
+        <br>
+  
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> Import_CashflowStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Import data from other database software (future increment - if time). </p>
+        </li>
+    
+        <br>
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> Export_CashflowStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Export active cashflow statement into .CSV format for future use.</p>
+        </li>
+    
+        <br>
+  
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> View_CashflowStatement</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Search from cashflow statement database and select a sheet to bring to active.</p>
+        </li>
+    
+        <br>
+  </ol>
+
+  <br>
+  <h2 class="admin-title">Administration Control</h2>
+  <br>
+  <h3>User Profile Management</h3>
+  <ol>
+    <li class="list-item">
+        <p><Strong>Name:</Strong> Create_UserProfile</p>
+        <p><Strong>Type:</Strong> Functional </p>
+        <p><Strong>Summary:</Strong> Create a new user object. </p>
+      </li>
+  
+      <br>
+  
+      <li class="list-item">
+          <p><Strong>Name:</Strong> Read_UserProfile</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Choose and read a user from the MS access database.</p>
+        </li>
+    
+        <br>
+  
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> Update_UserProfile</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Used with Read User Statement; Make an active user profile, enabling adjustments.</p>
+        </li>
+    
+        <br>
+  
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> Delete_UserProfile</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Delete the active user profile and remove from database.</p>
+        </li>
+    
+        <br>
+  
+        <li class="list-item">
+          <p><Strong>Name:</Strong> View_UserProfile</p>
+          <p><Strong>Type:</Strong> Functional </p>
+          <p><Strong>Summary:</Strong> Search from user database and select a user to bring to active.</p>
+        </li>
+    
+        <br>
+  </ol>
+
+  <br>
+  <hr>
+  <br>
+
+  <!-- Non-functional Requirements Div -->
+  <h2 class="non-functional-title">Non-functional Requirements</h2>
+
+  <h3>Constraints</h3>
+  <ol>
+    <li>
+      <p><strong>Name:</strong> Technical Aptitude</p>
+      <p><strong>Type:</strong> Constraint</p>
+      <p><strong>Summary:</strong> System users must have some skill with using computers and know how to navigate the system</p>
+    </li>
+
+    <br>
+
+    <li>
+      <p><strong>Name:</strong> Security Levels</p>
+      <p><strong>Type:</strong> Constraint</p>
+      <p><strong>Summary:</strong> System users will be limited on privileges based on security level.</p>
+    </li>
+
+    <br>
+
+    <li>
+      <p><strong>Name:</strong> Platform Requirements</p>
+      <p><strong>Type:</strong> Constraint</p>
+      <p><strong>Summary:</strong> Systems must run on Windows OS.</p>
+    </li>
+
+    <br>
+    <li>
+      <p><strong>Name:</strong> Platform Add-ins</p>
+      <p><strong>Type:</strong> Constraint</p>
+      <p><strong>Summary:</strong> As of Version 1.0, system only works with MS Access and MS Excel.</p>
+    </li>
+  </ol>
+
+  <br>
+  <h3>Risks</h3>
+
+  <ol>
+    <li>
+      <p><strong>Name:</strong> Check_Security_Level </p>
+      <p><strong>Type:</strong> Risk/Constraint</p>
+      <p><strong>Summary:</strong> Before system logins, security level should be recognized based on user credentials.</p>
+    </li>
+
+    <br>
+
+    <li>
+      <p><strong>Name:</strong> Check_Connection_To_Access</p>
+      <p><strong>Type:</strong> Risk</p>
+      <p><strong>Summary:</strong> Before Reading or Updating sheets, check that a database link exsists between the respective table.</p>
+    </li>
+
+    <br>
+
+    <li>
+        <p><strong>Name: </strong> Check_Access_File_Formatting</p> 
+        <p><strong>Type: </strong> Risk/Constraint</p>
+        <p><strong>Summary: </strong> Check that files exported to .CSV files.</p>
+      </li>
+  
+      <br>
+
+    <li>
+      <p><strong>Name: </strong> Check_Excel_Formatting</p> 
+      <p><strong>Type: </strong> Risk/Constraint</p>
+      <p><strong>Summary: </strong> Check that excel formatting is correct on exporting active sheets; Create "dummy" sheet.</p>
+    </li>
+
+    <br>
+
+    <!-- <li>
+      <p><strong>Name: </strong> Check_Connection_To_Excel</p> 
+      <p><strong>Type: </strong> Risk/Constraint</p>
+      <p><strong>Summary: </strong> Check that excel formatting is correct on exporting active sheets; Create "dummy" sheet.</p>
+    </li> -->
+
+    <!-- <br> -->
+
+    <li>
+      <p><strong>Name: </strong> Check_Excel_File_Formatting</p> 
+      <p><strong>Type: </strong> Risk/Constraint</p>
+      <p><strong>Summary: </strong> Check that files exported to .CSV files.</p>
+    </li>
+
+    <br>
+
+    <li>
+      <p><strong>Name: </strong> Check_Login_Info</p> 
+      <p><strong>Type: </strong> Risk</p>
+      <p><strong>Summary: </strong> Check users EIN against Employee Database, looking for a match to access system. </p>
+    </li>
+
+    <br>
+
+    <li>
+      <p><strong>Name: </strong> Save_Login_Info</p> 
+      <p><strong>Type: </strong> Risk/Constraint</p>
+      <p><strong>Summary: </strong> Check that each user EIN is unique and correctly saved to Employee Database. </p>
+    </li>
+
+    <br>
+  </ol>
+
+  <br>
+  <hr>
+  <br>
+
+  <!-- Changes Div -->
+  <h2 class="changes-title">Expected Changes</h2>
+  <ol>
+    <li>
+      <p><strong>Name:</strong> User_Interface</p>
+      <p><strong>Type:</strong> Functional/Constraint</p>
+      <p><strong>Summary:</strong> Being open to functional changes/non-functional changes that users need/want. Changes made on feedback after deployment</p>
+    </li>
+
+    <br>
+
+    
+    <li>
+        <p><strong>Name: </strong> Modify Database</p> 
+        <p><strong>Type: </strong> Functional</p>
+        <p><strong>Summary: </strong> May reorganize database tables for efficiency (i.e. moving the asset collection and liability collection into financial reporting).</p>
+    </li>
+
+    <br>
+
+    
+  </ol>
+
+</section>
+
+<section class="footer-section">
+  <!-- Footer Div -->
+  <br>
+  <a href="https://github.com/jdcodes-12/Better-Business-Hero-">Github</a>
+</section>
+</body>
+</html>
