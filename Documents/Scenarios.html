@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>BBH - Scenarios (Employee, Manager, Owner, Financial Dept.)</title>
+    
+    <!-- CSS Style sheet -->
+    <link rel="stylesheet" href="scenarios-styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- Header Section -->
+    <div class="header-section">
+        <h1>BBH System</h1>
+        <h2>Scenarios</h2>
+        <h5>March 16, 2021</h5>
+        <br>
+    </div>
+
+    <!-- Secnario Section -->
+    <div class="scenario-section">
+        <div class="scenario-one">
+            <!-- Scenario #1 - Employee Clocking In & Out -->
+            <h3><strong>Scenario #1 - Employee Clocking In & Out For A Shift</strong></h3>
+            <p>
+                All employees are assigned a unique username, password, and Employee Identification Number upon hire (EIN). 
+                Before an employee can start a shift, she must first clock in. To clock in, she must utilize the BBH system.
+                Upon first seeing the BBH system, she is presented with a login screen that prompts for her EIN. After succesfully logging in,
+                the "Main" screen appears with general options. The employee navigates to the "Employee" section of the system via
+                using the "Employee" button found on the main screen.
+                <br>
+                <br>
+                Once on the Employee screen appears, she must click the "Clock In" button. This prompts her to enter her EIN again.
+                After entering the EIN, she is clocked into the system for the day. A timestamp is made to note the starting time of the shift (e.g. "time in").
+                Clocking out is a similar process. The employee must navigate back to the Employee screen, then hit the "Clock out" button.
+                This prompts her for her EIN, she is now clocked out of the system for the day. A timestamp is made to note the ending time of the shift (e.g. "time out");
+                <br>
+                <br>
+                After a succesful clock in and out for a shift, the timestamps are compared to determine hours worked. 
+                Hours worked are then updated on the employee's user profile.
+            </p>
+        </div>
+        
+        <br>
+
+        <!-- Scenario #2 - Manager Logging Inventory for the Month -->
+        <div class="scenario-two">
+        <h3><strong>Scenario #2 - Manager Logging Inventory for the Month</strong></h3>
+            <p>
+              A manager is given a task from the owner to start next month's inventory tracking sheet.
+              To do this, she must succesfully login to the BBH system then navigate to the "Inventory Management" screen via the Inventory Mgmnt. button
+              on the main screen.
+              <br>
+              <br>
+              On the Inventory Management screen, she is given options - Create, Read, Update, Delete - to interact with an active inventory sheet.
+              She starts the process by clicking the "Create Sheet" button from the list pane, then is prompted to enter a name. Once the name is entered, a new active sheet
+              is created with the provided name. She can then begin entering or simply leave the sheet blank. 
+              <br>
+              <br>
+              When she needs to update the inventory sheet, she can use the "Read" option to search for the previously created sheet.
+              If the sheet is found, it is displayed in the active window. She then can use the "Update" option to start editing the active inventory sheet.
+
+              <br>
+              <br>
+              The files will be saved automatically before closing an active inventory sheet or switching between sheets. 
+
+            </p>
+        </div>
+
+        <br>
+
+        <!-- Scenario #3 - Owner Logging Liabilities for the Month -->
+        <div class="scenario-three">
+            <h3><strong>Scenario #3 - Owner Logging Liabilities & Assets for the Month</strong></h3>
+                <p>
+                An owner is asked by the financial department to make sure all liabilites and assets for a month are verified and reported correctly.
+                To do this, the owner must first succesfully log into the BBH system, then navigate to the "Financial Reporting" screen via the Reporting button on the main screen.
+                <br>
+                <br>
+                On the Financial Reporting screen, the owner is presented with two categories of interaction options - Assets and Liabilities. Since she is asked to verify both, she starts with Assets.
+                She navigates to the "Asset Collection" section via clicking the Asset button on the Financial Reporting screen.
+                <br>
+                <br>
+                Once on the Asset Section, she then chooses "Read" from the interaction options on the list. This prompts her to enter a filename to look for. 
+                She enters the current month, then that file, if it exists, is brought to the active window. She becomes to review each entry, verifying that the fields are correctly reported.
+                <br>
+                <br>
+                If changes needs to be made, she can click the "Update" option from the list. This will allow her to edit the active sheet, changing any fields that are necessary. 
+               </p>   
+        </div>
+    </div> 
+
+
+    <br><br>
+    <!-- Footer Section -->
+    <div class="footer-section">
+        <a href="https://github.com/jdcodes-12/Better-Business-Hero-">GitHub - BBH Home</a>
+    </div>
+</body>
+</html>
