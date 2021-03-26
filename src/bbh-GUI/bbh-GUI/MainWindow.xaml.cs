@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace BBH_ver_1._0
+namespace bbh_GUI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

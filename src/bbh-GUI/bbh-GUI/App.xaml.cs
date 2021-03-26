@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace BBH_ver_1._0
+namespace bbh_GUI
 {
     /// <summary>
     /// Interaction logic for App.xaml
