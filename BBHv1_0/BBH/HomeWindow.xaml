@@ -1,0 +1,101 @@
+﻿<Window x:Class="BBH.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BBH"
+        mc:Ignorable="d"
+        Title="Home" Height="500" Width="600"
+        WindowStyle="None"
+        Background="#181735"
+        ResizeMode="NoResize">
+
+    <Grid>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150" MinWidth="150"/>
+                <ColumnDefinition Width= "*"  MinWidth="450"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Column="0" Grid.Row="1">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Hello, User"
+                               TextWrapping="Wrap"
+                               FontFamily="Fonts/#Dosis"
+                               FontSize="50"
+                               Height="150"
+                               Width="150"
+                               Opacity="0.80"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center"
+                               TextAlignment="Center"
+                               FontWeight="ExtraLight"
+                               Foreground="#ffe3fe"
+                               Margin="0,25,0,0"
+                               />
+
+                    <Border Height="3" Width="75"
+                            Background="#32DDC2"/>
+
+                    <Border Height="3" Width="60"
+                            Background="#FC6586"
+                            Margin="0,2,0,0"/>
+
+                    <Border Height="3" Width="45"
+                            Background="#383660"
+                            Margin="0,2,0,0"/>
+
+                    <TextBlock Text="Where would you like to go?"
+                               TextWrapping="Wrap"
+                               TextAlignment="Left"
+                               Padding="40,30,25,0"
+                               FontFamily="Fonts/#Dosis"
+                               FontSize="30"
+                               FontWeight="Light"
+                               Foreground="#ffe3fe"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Height="220"
+                               Width="150"
+                               />
+
+                    <Border Height="3" Width="45"
+                            Background="#383660"/>
+
+                    <Border Height="3" Width="60"
+                            Background="#FC6586"
+                            Margin="0,2,0,0"/>
+
+                    <Border Height="3" Width="75"
+                            Background="#32DDC2"
+                            Margin="0,2,0,0"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Navbar -->
+            <StackPanel Grid.Row="0" Grid.ColumnSpan="2" 
+                        Background="#0f0f2d" Orientation="Horizontal">
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="400"/>
+                    </Grid.ColumnDefinitions>
+
+                </Grid>
+
+                
+            </StackPanel>
+        </Grid> 
+        
+        
+        
+        
+    </Grid>
+</Window>
