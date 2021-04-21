@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6811189D-5E74-4A4E-8581-0C42CDF1982F}</ProjectGuid>
+    <ProjectGuid>{522D939D-DB41-49D1-B6CF-D5789388B8B5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>BBH</RootNamespace>
-    <AssemblyName>BBH</AssemblyName>
+    <RootNamespace>BBH___GUI</RootNamespace>
+    <AssemblyName>BBH - GUI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -61,24 +61,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="LoginScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="LoginWindow.xaml.cs">
-      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    <Compile Include="LoginScreen.xaml.cs">
+      <DependentUpon>LoginScreen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="HomeWindow.xaml.cs">
-      <DependentUpon>HomeWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="FinReportWindow.xaml.cs">
-      <DependentUpon>FinReportWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="InventoryWindow.xaml.cs">
-      <DependentUpon>InventoryWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="UserWindow.xaml.cs">
-      <DependentUpon>UserWindow.xaml</DependentUpon>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -111,32 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="ModernButtonTheme.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="LoginWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="HomeWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="FinReportWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="InventoryWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="UserWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -12,16 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace BBH
+namespace BBH___GUI
 {
     /// <summary>
-    /// Interaction logic for Window3.xaml
+    /// Interaction logic for LoginScreen.xaml
     /// </summary>
-    public partial class Window3 : Window
+    public partial class LoginScreen : Window
     {
-        public Window3()
+        public LoginScreen()
         {
             InitializeComponent();
+        }
+
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+                DragMove();
         }
     }
 }

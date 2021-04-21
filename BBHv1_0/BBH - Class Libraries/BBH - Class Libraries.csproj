@@ -41,16 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSVConnector.cs" />
     <Compile Include="EmployeeModel.cs" />
     <Compile Include="FinancialDeptModel.cs" />
+    <Compile Include="GlobalConfig.cs" />
+    <Compile Include="IDataConnection.cs" />
     <Compile Include="InventoryCollectionModel.cs" />
     <Compile Include="InventoryItemModel.cs" />
     <Compile Include="InventorySheetModel.cs" />
     <Compile Include="ManagerModel.cs" />
     <Compile Include="OwnerModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlConnector.cs" />
     <Compile Include="UserProfileCollectionModel.cs" />
     <Compile Include="UserProfileModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
