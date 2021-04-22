@@ -13,5 +13,6 @@ namespace BBH___GUI
     /// </summary>
     public partial class App : Application
     {
+        
     }
 }

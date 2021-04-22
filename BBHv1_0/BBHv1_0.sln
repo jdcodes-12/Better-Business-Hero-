@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBH - Class Libraries", "BBH - Class Libraries\BBH - Class Libraries.csproj", "{BFD0846A-E88A-456D-8D1D-2ACFEEAD60D4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBH - GUI", "BBH - GUI\BBH - GUI.csproj", "{522D939D-DB41-49D1-B6CF-D5789388B8B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBH - V1", "BBH - V1\BBH - V1.csproj", "{D107E5CD-FD7F-46AC-96CA-607E6E205E65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BFD0846A-E88A-456D-8D1D-2ACFEEAD60D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFD0846A-E88A-456D-8D1D-2ACFEEAD60D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFD0846A-E88A-456D-8D1D-2ACFEEAD60D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFD0846A-E88A-456D-8D1D-2ACFEEAD60D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{522D939D-DB41-49D1-B6CF-D5789388B8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{522D939D-DB41-49D1-B6CF-D5789388B8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{522D939D-DB41-49D1-B6CF-D5789388B8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{522D939D-DB41-49D1-B6CF-D5789388B8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D107E5CD-FD7F-46AC-96CA-607E6E205E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D107E5CD-FD7F-46AC-96CA-607E6E205E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D107E5CD-FD7F-46AC-96CA-607E6E205E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D107E5CD-FD7F-46AC-96CA-607E6E205E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
